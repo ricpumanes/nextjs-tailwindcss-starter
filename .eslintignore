@@ -1,0 +1,14 @@
+build/
+out/
+.next/
+webpack/
+node_modules/
+coverage/
+public/
+
+# config files
+.eslintrc.js
+.prettierrc.js
+jest.config.js
+postcss.config.js
+tailwind.config.js

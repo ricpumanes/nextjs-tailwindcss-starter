@@ -1,0 +1,46 @@
+module.exports = {
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
+      colors: {
+        link: 'var(--link)',
+        started: 'var(--started)',
+        waiting: 'var(--waiting)',
+        waiting1: 'var(--waiting1)',
+        idle: 'var(--idle)',
+        done: 'var(--done)',
+        fixed: 'var(--fixed)',
+        blocked: 'var(--blocked)',
+        error: 'var(--error)',
+        overdue: 'var(--overdue)',
+        paused: 'var(--paused)',
+        primary: 'var(--primary)',
+        default: 'var(--default)',
+        open: 'var(--open)',
+        basic: 'var(--basic)',
+        basicHovered: 'var(--basic-hovered)',
+        basicText: 'var(--basic-text)',
+        basicTextHovered: 'var(--basic-text-hovered)',
+        basicTextFocused: 'var(--basic-text-focused)',
+        'gray-1': 'var(--gray-1)',
+        'gray-2': 'var(--gray-2)',
+        'gray-3': 'var(--gray-3)',
+        'gray-4': 'var(--gray-4)',
+        'gray-5': 'var(--gray-5)',
+        'gray-6': 'var(--gray-6)',
+        'red-1': 'var(--red-1)',
+        fb: 'var(--fb)',
+        tw: 'var(--tw)',
+        ig: 'var(--ig)',
+      },
+      fontSize: {
+        '1xs': '0.625rem',
+        '2xs': '0.5rem',
+      },
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};

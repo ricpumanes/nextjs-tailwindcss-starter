@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@public/*": ["./public/*"],
+      "@components": ["./components/index.js"],
+      "@hooks": ["hooks/index.js"],
+      "@hocs": ["hocs/index.js"],
+      "@lib": ["./lib/index.js"],
+      "@layouts": ["./layouts/index.js"],
+      "@providers": ["providers/index.js"]
+    }
+  }
+}

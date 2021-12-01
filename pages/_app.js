@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '@public/assets/styles/globals.css';
+import '@public/assets/styles/globals.scss';
 
 const App = (props) => {
   const { Component, pageProps } = props;
